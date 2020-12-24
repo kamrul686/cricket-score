@@ -34,7 +34,7 @@ nav{
     z-index: 50000;
     position: fixed;
     top: 89.5vh;
-    height: 10vh;
+    height: 80px;
 }
 nav ul{
     display: flex;
