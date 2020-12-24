@@ -33,7 +33,7 @@ nav{
     padding: 8px 0px;
     z-index: 50000;
     position: fixed;
-    top: 89.5vh;
+    top: 89%;
     height: 80px;
 }
 nav ul{
