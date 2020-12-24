@@ -33,8 +33,9 @@ nav{
     padding: 8px 0px;
     z-index: 50000;
     position: fixed;
-    top: 80%;
+    top: 50%;
     height: 100px;
+    background:red;
 }
 nav ul{
     display: flex;
