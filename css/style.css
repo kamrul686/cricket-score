@@ -19,6 +19,7 @@ body{
     /* margin-bottom: 200px; */
     padding-bottom: 100px;
     /* background: red !important; */
+    position:sticky;
 }
 /* Nav Section Design  */
 .navbar-wrapper{
@@ -29,12 +30,11 @@ body{
 }
 nav{
     width: 100%;
-/*     background-color: rgba(17, 17, 17, 0.719); */
-    background-color:red;
+    background-color: rgba(17, 17, 17, 0.719);
     padding: 8px 0px;
     z-index: 50000;
     position: fixed;
-    top: 50%;
+    top: 90vh;
     height: 100px;
 }
 nav ul{
