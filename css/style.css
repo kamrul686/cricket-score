@@ -9,6 +9,17 @@
 p{
     font-size: .5rem;
 }
+.match__card__link{
+    color:black !important;
+}
+.match__card__link:hover {
+    text-decoration: none;
+}
+.match__card__link:hover .match-card-container{
+    text-decoration: none;
+    background-color: rgba(65, 91, 156, 0.699) !important;
+    color: white;
+}
 html{
     font-size: 18px;
 }
@@ -19,7 +30,19 @@ body{
     /* margin-bottom: 200px; */
     padding-bottom: 100px;
     /* background: red !important; */
-    position:sticky;
+    position: sticky;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.badge{
+    font-size: 8px !important;
+    
 }
 /* Nav Section Design  */
 .navbar-wrapper{
@@ -34,9 +57,10 @@ nav{
     padding: 8px 0px;
     z-index: 50000;
     position: fixed;
-    top: 90vh;
-    height: 100px;
+    bottom: 0px;
+    height: 10vh;
 }
+
 nav ul{
     display: flex;
     justify-content: space-evenly;
@@ -50,7 +74,7 @@ nav ul li img{
     width: 100%;
     border-radius: 30%;
     transition: transform .3s 0s ease-in;
-    opacity: .5;
+    /* opacity: .5; */
 }
 nav ul li img:hover{
     transform: scale(1.2);
@@ -134,7 +158,7 @@ nav ul li img:hover{
     margin-top: -40px;
 }
 .match-card-container{
-    width: 85%;
+    width: 80%;
     background-color: #fff;
     margin:10px auto;
     z-index: 100;
@@ -159,12 +183,12 @@ nav ul li img:hover{
 
 }
 .matah-header p{
-    color: rgb(105, 94, 94);
+    color: rgb(51, 43, 43);
     font-size: .55rem;
     text-align: left;
     margin-left: 15px;
     margin-bottom: 0 !important;
-    font-weight: 500;
+    font-weight: 700;
 }
 .matah-header h5{
     text-align: center;
@@ -172,6 +196,10 @@ nav ul li img:hover{
 .team{
     display: flex;
     justify-content:space-between;
+    cursor: pointer;
+}
+#item_two:focus{
+    background-color: rebeccapurple !important;
 }
 .left{
     width: 60%;
